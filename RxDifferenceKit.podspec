@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.prefix_header_file = false
   s.framework = "UIKit"
 
-  s.source_files = 'Sources/Base/**/*'
+  s.source_files = 'RxDifferenceKit/**/*'
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
   s.dependency 'DifferenceKit'
